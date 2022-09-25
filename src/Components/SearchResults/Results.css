@@ -1,0 +1,59 @@
+.results-review {
+    display: flex;
+    justify-content: center;
+    border: 2px  solid #e5e5e5;
+    border-radius: 5px;
+    padding: 10px;
+    gap: 1rem;
+    margin: 1rem;
+    width: 45%;
+}
+
+.imgSelector {
+    width: 100px;
+    height: 100px;
+}
+
+.detail {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex: 2;
+}
+
+.title {
+    font-size: 15px;
+    color: #0d1723;
+}
+
+.hours {
+    font-size: 12px;
+}
+
+.apartment {
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.price-range {
+    font-size: 15px;
+    color: #000;
+    font-weight: bold;
+}
+
+.Available-aparments {
+    font-size: 12px;
+}
+
+.ReBtn {
+    font-weight: 500;
+    color: white;
+    background-color: #0d1723;
+    font-weight: bold;
+    width: 70%;
+    padding: 10px 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 1rem 0;
+}
